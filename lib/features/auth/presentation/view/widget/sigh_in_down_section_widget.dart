@@ -40,7 +40,7 @@ class SignInDownSectionWidget extends StatelessWidget {
               ),
               CustomActionButton(
                 text: AppStrings.signInTitle,
-                borderRadius: BorderRadius.circular(15.0.r),
+                borderRadius: BorderRadius.circular(16.0.r),
                 backGroundColor: AppColors.primaryColor,
                 onTap: () async {
                   context.read<AuthCubit>().login();
